@@ -1,26 +1,31 @@
 {
-  "name": "mindaugasdagys.github.io",
-  "version": "1.0.0",
-  "description": "my page",
-  "main": "index.js",
+  "name": "mindaugas-dagys-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mindaugasdagys/mindaugasdagys.github.io.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [],
-  "author": "MIndaugas Dagys",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mindaugasdagys/mindaugasdagys.github.io/issues"
-  },
-  "homepage": "https://github.com/mindaugasdagys/mindaugasdagys.github.io#readme",
-  "devDependencies": {
-    "babel": "^6.5.2",
-    "node-sass": "^3.6.0",
-    "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
